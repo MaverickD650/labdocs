@@ -1,7 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", ":pinAllExceptPeerDependencies"],
+  "extends": ["config:base", ":label(dependencies"],
   "packageRules": [{
+    "packagePatterns": ["^@docusaurus"],
+    "groupName": "docusaurus monorepo",
     "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
     "automerge": true
   }]
