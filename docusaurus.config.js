@@ -110,7 +110,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} MyaverickD, Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} MaverickD, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
