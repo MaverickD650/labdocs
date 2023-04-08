@@ -68,6 +68,8 @@ const config = {
         logo: {
           alt: 'Mavs HomeLab Logo',
           src: 'img/mav.svg',
+          width: 32,
+          height: 32,
         },
         items: [
           {
