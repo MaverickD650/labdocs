@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This site was designed to be easy to use so I can focus on the content and edit from anywhere.
       </>
     ),
   },
@@ -18,8 +17,10 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        The site is built with React and Docusaurus so I can focus on the content and not the code.
+        The site also leverages the power of GitHub Actions and Cloudflare Pages to automatically
+        deploy the site when I push to the main branch. It allows me to focus on the content solely
+        while the automation does the chores.
       </>
     ),
   },
@@ -28,8 +29,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        React allows me to create reusable components that I can use across the site. It also allows
+        me to make it a hell of a lot more interesting to create, maintain, edit and view
       </>
     ),
   },
