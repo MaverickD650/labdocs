@@ -1,0 +1,23 @@
+name: 'Renovate Review'
+
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  renovate-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Checkout Repository'
+        uses: actions/checkout@v3
+      - name: renovate-config-validator
+        uses: rinchsan/renovate-config-validator@v0.0.12
+        with: 
+          pattern: renovate.json
