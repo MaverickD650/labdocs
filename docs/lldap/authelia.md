@@ -17,7 +17,7 @@ This is adapted from a guide I wrote for the TrueCharts project. Not published y
 1. Tick the box for `LDAP backend configuration` a further set of questions will then appear.
 2. The dropdown `Implementation` should be set as `custom`
 3. URL should be set to internally link back to your LLDAP instance for the default configuration it should look something like the one below.
-    `ldap://lldap.ix-lldap.svc.cluster.local:3890`
+    `ldap://lldap-ldap.ix-lldap.svc.cluster.local:3890`
 This will need to be adapted if you have named LLDAP differently or used a different port for LDAP.
 4. Next set the `Base DN` this is one of the configurable options you set when installing LLDAP which by default is `dc=example,dc=com` and should be adapted to your domain if set.
 5. The `Username Attribute` should be set to `uid`.
