@@ -2,7 +2,7 @@
 slug: lldap-release
 title: TtrueCharts LLDAP Stable Release
 authors: [maverickd650]
-tags: [development] [truecharts] [ldap] [authentication]
+tags: [development, truecharts, ldap, authentication]
 ---
 
 Happy to announce the stable release of TrueCharts LLDAP! I've been squirreling away on this for a few weeks now so I'm glad it's finally ready for release.
