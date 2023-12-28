@@ -19,4 +19,4 @@ By default, LLDAP will use the following options:
 
 ## Usage
 
-LLDAP can be used as the user backend for Authelia and Authentik as well as any other application that supports LDAP e.g. Jellyfin and Nextcloud.
+LLDAP can be used as the user backend for Authelia and Authentik as well as any other application that supports LDAP e.g. Jellyfin and Nextcloud. Using the internal dns name and port is better for internal applications as this is less likely to change. Internal dns names can be obtained with `heavyscript dns`.

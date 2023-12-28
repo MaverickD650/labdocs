@@ -7,7 +7,7 @@ Authentik is a much more user friendly version of Authelia due to the UI that is
 
 ## LLDAP
 
-The above feeds nicely into LLDAP as we can maintain a low footprint user database to sit in the background that Authentik can sync changes to and from. This allows us to easily have additional redundancy and switch instances and login technologies at a whim without affecting the end user too much.
+The above feeds nicely into LLDAP as we can maintain a low footprint user database to sit in the background that Authentik can sync changes to and from. This allows us to easily have additional redundancy and switch instances and login technologies at a whim without affecting the end user too much. In my case Authentik is my go to provider but I keep Authelia in the background in case of technical difficulty. Using LLDAP as a shared user database reduces the maintenance demand.
 
 The relevant article for this is [here](https://goauthentik.io/integrations/sources/ldap/).
 
