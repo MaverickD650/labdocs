@@ -15,6 +15,8 @@ By default, LLDAP will use the following options:
 - Base DN for LDAP: dc=example,dc=org
 - LDAP port: 3890
 
+SMTP options I currently don't use as most interactions using emails are managed by Authentik and Authelia.
+
 > ⚠️ **WARNING**: The default configuration is not secure and should not be used in production. Please change the admin password for LDAP before using LLDAP in production. ⚠️
 
 ## Usage
