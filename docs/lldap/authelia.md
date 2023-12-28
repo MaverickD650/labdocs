@@ -36,7 +36,7 @@ This will need to be adapted if you have named LLDAP differently or used a diffe
 10. The `Group name Attribute` should be set to `cn`.
 11. The `Mail Attribute` should simply be set to `mail`.
 12. The `Display Name Attribute` should be set to `displayName`. This is the attribute that Authelia will use to greet users when they log in.
-13. `Admin user` is the default admin user used when setting up LLDAP initially and is auto generated for you. The entry you input into this box should look something like the one below. Change `dc=example,dc=com` to match the `Base DN` you set earlier.
+13. `Admin user` is the default admin user used when setting up LLDAP initially and is auto generated for you. The entry you input into this box should look something like the one below. Change `dc=example,dc=com` to match the `Base DN` you set earlier. Though you can use another user but make sure they are in the `LLDAP_PASSWORD_MANAGER` group.
 
     **Admin user**
         `uid=admin,ou=people,dc=example,dc=com`
