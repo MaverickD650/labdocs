@@ -38,6 +38,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: renovate-config-validator
-        uses: rinchsan/renovate-config-validator@v0.1.0
+        uses: rinchsan/renovate-config-validator@v0.2.0
         with: 
           pattern: renovate.json
