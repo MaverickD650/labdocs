@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v4
       # For pull requests it's not necessary to checkout the code
       - name: filter
-        uses: dorny/paths-filter@v2
+        uses: dorny/paths-filter@v3
         id: filter
         with:
           filters: |
